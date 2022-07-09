@@ -6,12 +6,12 @@
 
 .container {
     position: relative;
-    width: 1140;
+    width: 1140px;
     margin: 0 auto;
 }
 
 .promo {
-    height: 800px;
+    min-height: 800px;
     background: url('../img/Mainbackground.jpg') center center/cover no-repeat;
     padding: 39px 0 62px 0;
 
@@ -51,7 +51,7 @@
 
 .simpe .title_big {
     color: #ffffff;
-    font-family: "Roboto - Black";
+    font-family: 'Roboto', sans-serif;
     font-size: 80px;
     font-weight: 400;
     text-transform: uppercase;
@@ -91,7 +91,7 @@
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
@@ -108,7 +108,7 @@
 .more .more_text {
     color: #ffffff;
     margin: 73px 161px 13px 160px;
-    font-family: "Roboto - Thin";
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -193,16 +193,15 @@
 }
 
 .optim {
-    position: relative;
-    width: 1920px;
-    min-height: 550px;
-    padding: 102px 0 107px 0;
+        min-height: 550px;
+    padding: 102px 0 11px 0;
 }
+
 
 .optim .optem_head {
     margin-left: 391px;
     color: #299cbd;
-    font-family: "Roboto - Black";
+    font-family: 'Roboto', sans-serif;
     font-size: 29px;
     font-weight: 400;
     text-transform: uppercase;
@@ -215,12 +214,12 @@
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
-    font-family: "Roboto Light";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 .optim .optim_text span {
-    font-family: "Roboto - Bold";
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -228,13 +227,12 @@
 .optim_girl {
     position: absolute;
     top: -54px;
-    left: -150px;
+    left: -240px;
     z-index: -1;
 }
 
 
 .pc {
-    width: 1920px;
     min-height: 447px;
     padding: 80px 0 79px 0;
     background: url(../img/ss.jpg) center center/cover no-repeat;
@@ -277,10 +275,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1920px;
     min-height: 630px;
     text-align: center;
     background-color: #efefef;
+    padding: 86px 0 87px 0;
     }
 
 .almos .almos_btn {
@@ -329,8 +327,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1920px;
-    padding: 48px 0 0;
+    padding: 89px 0 64px 0;
     background-color: #fff;
     
 }
@@ -338,8 +335,6 @@
 .end_img {
     display: block;
     margin: 0 auto;
-    margin-top: 82px;
-
 }
 
 .end_text {
@@ -356,7 +351,7 @@
 .end_textted {
     margin-top: 30px;
     color: #299cbd;
-    font-family: "Roboto - Black";
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
@@ -379,7 +374,6 @@
 
 
 .back {
-    width: 1920px;
     height: 166px;
     margin: 64px 0 0;
     padding: 61px 771px 69px 772px;
@@ -399,4 +393,42 @@
     text-align: center;
     color: #888;
     text-decoration: underline;
+}
+
+
+footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+
+footer a {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: none;
+}
+.contact {
+    margin: 0 auto;
+    width: 377px;
+    text-align: center;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.dd_divader {
+    width: 292px;
+    height: 2px;
+    margin: 49px 0 59px 20px;
+    background-color: #ffffff;
 }
